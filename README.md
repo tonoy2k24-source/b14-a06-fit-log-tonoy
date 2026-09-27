@@ -8,7 +8,7 @@ FitLog is a modern and responsive workout tracking web application built with Ne
 
 ## 📦 GitHub Repository
 
-[GitHub Repository](YOUR_GITHUB_REPO_LINK_HERE)
+[GitHub Repository](https://github.com/tonoy2k24-source/b14-a06-fit-log-tonoy)
 
 ---
 
