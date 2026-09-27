@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FITLOG — Workout Library
 
-## Getting Started
+FitLog is a modern and responsive workout tracking web application built with Next.js. It allows users to explore different workouts, view workout details, add exercises to their daily plan, save workouts for later, and track workout statistics.
 
-First, run the development server:
+## 🔗 Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Live Demo](YOUR_LIVE_LINK_HERE)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 GitHub Repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[GitHub Repository](YOUR_GITHUB_REPO_LINK_HERE)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📝 Project Description
 
-To learn more about Next.js, take a look at the following resources:
+FitLog is a dark-themed workout library and workout planning application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Users can browse different exercises from an external API, view detailed information about each workout, add workouts to today's plan, save workouts for later, and manage their workout plan.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application is designed to work smoothly across mobile, tablet, and desktop devices.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- React
+- JavaScript
+- JSX
+- Tailwind CSS
+- DaisyUI
+- Next.js App Router
+- REST API
+- Local Storage
+- React Hooks
+- Git & GitHub
+
+---
+
+## ✨ Features
+
+### 🏋️ Workout Library
+
+- Displays workouts dynamically from the FitLog API
+- Responsive workout card grid
+- Shows muscle groups, equipment, duration, calories, and rating
+- Clicking a workout opens its detailed page
+
+### 📖 Workout Details
+
+- Displays complete workout information
+- Workout image
+- Description
+- Muscle groups
+- Equipment
+- Duration
+- Calories
+- Rating
+- Sets and repetitions
+- Step-by-step instructions
+
+### 📋 My Plan
+
+- Add workouts to today's plan
+- View all planned workouts
+- Remove workouts from the plan
+- Mark workouts as completed
+- Displays total exercises
+- Displays total workout minutes
+- Displays total calories
+
+### 💾 Saved Workouts
+
+- Save workouts for later
+- View saved workouts
+- Remove saved workouts
+- Saved workout counter in the navbar
+
+### 🔔 Toast Notifications
+
+The application provides toast notifications for actions such as:
+
+- Workout added to plan
+- Workout removed
+- Workout saved
+- Workout marked as completed
+
+### 📱 Responsive Design
+
+The application is responsive and works on:
+
+- Mobile devices
+- Tablets
+- Laptops
+- Desktop screens
+
+### 🔎 Workout Sorting
+
+Workouts can be sorted by:
+
+- Duration
+- Calories
+- Rating
+
+### 💾 Data Persistence
+
+Workout plan and saved workouts can be stored in the browser using Local Storage so that the data remains available after refreshing the page.
+
+### ⚠️ Custom Pages
+
+- Custom loading state
+- Custom 404 / Not Found page
+- Error handling for API requests
+
+---
+
+## 🌐 API
+
+FitLog uses the following REST API.
+
+### All Workouts
+
+```text
+https://api.abcz.workers.dev/api/fitlog
