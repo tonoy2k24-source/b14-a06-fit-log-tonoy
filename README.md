@@ -4,7 +4,7 @@ FitLog is a modern and responsive workout tracking web application built with Ne
 
 ## 🔗 Live Website
 
-[Live Demo](YOUR_LIVE_LINK_HERE)
+[Live Demo](https://b14-a06-fit-log-tonoy.vercel.app/)
 
 ## 📦 GitHub Repository
 
