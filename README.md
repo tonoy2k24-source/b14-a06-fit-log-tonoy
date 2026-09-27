@@ -125,4 +125,3 @@ FitLog uses the following REST API.
 https://api.abcz.workers.dev/api/fitlog
 
 
-tony ka yu
